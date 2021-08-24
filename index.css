@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+.content{
+    background-color:rgba(6,120,188,0.9); 
+}
+.row .no-gutters a:hover{
+    background-color:rgba(6,120,188,0.9) ;
+}
+.row .fa-chevron-circle-right{
+    color:rgba(90, 161, 202, 0.9);
+    width: 50px;
+}
+.fa-chevron-circle-right:hover{
+    color: white;
+}
+.imageGrid{
+    overflow: hidden;
+}
+.imageGrid img{
+    display: block;
+    transform: scale(1);
+}
+.imageGrid:hover img{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.airbag__content{
+    background-color: #f7f7f7;;
+}
+.btnLearnMore{
+    background-color: red;
+}
+.btnLearnMore:hover p{
+    color: red;
+}
+.btnLearnMore:hover{
+    background-color: white;
+}
+@media (max-width:650px){
+    .extra_content{
+        display: none;
+    }
+    #read_more{
+        display: block;
+    }
+}
+button.read_more{
+    display: none;
+    background-color: #0276b3;
+    cursor: pointer;
+}
+.show{
+    display: block!important;
+}
+@media screen and (min-width:600px){
+    div.fordFuture{
+    font-size: 36px;
+    }
+}
+@media screen and (max-width:600px){
+    div.fordFuture{
+        font-size: 18px;
+    }
+}
